@@ -20,7 +20,7 @@
                 <td>
                     <a href="javascript:void (0)" @click="del_one(index)">删除</a>
                     |
-                    <router-link :to="`/user_detail/${user.id}/${user.name}/${user.birthday}/${user.gender}/${user.note}`"><span></span>查看用户详情</router-link>
+                    <router-link :to="`/user_detail/${user.id}`"><span></span>查看用户详情</router-link>
                 </td>
             </tr>
         </table>
